@@ -20,7 +20,7 @@ Run "start GBO rotate bot.bat"
 ## Discord guide 
 ![image](https://github.com/user-attachments/assets/2eb2d0ca-4846-4e84-b96d-b355e87f3907)
 ## Example
-!rotate 400 134 1 G GS
+!rotate 400 134 1 G GS <br />
 ![image](https://github.com/user-attachments/assets/c9ff0825-522a-4ff5-9551-f8c513cb55ea)
 ## License
 
