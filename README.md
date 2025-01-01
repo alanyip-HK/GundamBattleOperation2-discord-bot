@@ -1,5 +1,5 @@
 # 機動戦士ガンダム バトルオペレーション2 Discord Bot
-# GundamBattleOperation2-discord-bot
+## GundamBattleOperation2-discord-bot
 ## To start Python3.12 environment (On Windows)
 install python3.12 from: https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=ja-JP&gl=JP
 ![image](https://github.com/user-attachments/assets/ba6d77a3-3572-4984-a21b-675688793fc5)
