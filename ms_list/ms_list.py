@@ -1,4 +1,4 @@
-#ms_list last update on 2024-12-29
+#ms_list last update on 2025-01-03
 unit = {"汎用":[
   {
     "LV": "LV1",
@@ -801,6 +801,14 @@ unit = {"汎用":[
     "SPACE": "FALSE"
   },
   {
+    "LV": "LV4",
+    "MS": "高機動型ザク",
+    "COST": 450,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "FALSE"
+  },
+  {
     "LV": "LV1",
     "MS": "ザク・ハーフキャノン（MB）",
     "COST": 300,
@@ -932,6 +940,14 @@ unit = {"汎用":[
     "LV": "LV3",
     "MS": "ジムⅡ",
     "COST": 400,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
+    "LV": "LV4",
+    "MS": "ジムⅡ",
+    "COST": 450,
     "TYPE": "汎用",
     "GROUND": "TRUE",
     "SPACE": "TRUE"
@@ -1124,6 +1140,14 @@ unit = {"汎用":[
     "LV": "LV3",
     "MS": "陸戦高機動型ザク",
     "COST": 400,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "FALSE"
+  },
+  {
+    "LV": "LV4",
+    "MS": "陸戦高機動型ザク",
+    "COST": 450,
     "TYPE": "汎用",
     "GROUND": "TRUE",
     "SPACE": "FALSE"
@@ -7762,6 +7786,14 @@ unit = {"汎用":[
     "GROUND": "TRUE",
     "SPACE": "TRUE"
   },
+  {
+    "LV": "LV1",
+    "MS": "ユニコーンガンダム［覚醒］",
+    "COST": 700,
+    "TYPE": "強襲",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  }
   {
     "LV": "LV1",
     "MS": "RX-93ff νガンダム",
