@@ -25,7 +25,7 @@ async def on_ready():
 
 
 @bot.command(name='rotate', help='GBO2の機体ルーレット')
-async def rotate_condition_class(ctx,ms_cost:int =commands.parameter(default=500,description="コストを入力してください　例:350"),contain_ms_level:list=commands.parameter(default=['LV1'],description="回したいレベルを入力してください  例:14"),number_of_player:int=commands.parameter(default=6,description="人数を入力してください　例:3"),ground_or_space:str=commands.parameter(default='G',description="出撃の地形を入力してください　G＝地上、S=宇宙"),ms_type:list=commands.parameter(default=['G','R','S'],description="タイプを入力してください  例:RS  G=汎用、R=強襲、S=支援")):
+async def rotate_condition_class(ctx,ms_cost:int =commands.parameter(default=500,description="コストを入力してください 0は無制限と意味する　例:350"),contain_ms_level:list=commands.parameter(default=['LV1'],description="回したいレベルを入力してください  例:14"),number_of_player:int=commands.parameter(default=6,description="人数を入力してください　例:3"),ground_or_space:str=commands.parameter(default='G',description="出撃の地形を入力してください　G＝地上、S=宇宙"),ms_type:list=commands.parameter(default=['G','R','S'],description="タイプを入力してください  例:RS  G=汎用、R=強襲、S=支援")):
 
     player_number = 0
     using_list = []
@@ -37,7 +37,8 @@ async def rotate_condition_class(ctx,ms_cost:int =commands.parameter(default=500
         if types == 'S':
             using_list.extend(ms_list.unit['支援'])
     df = pd.DataFrame(using_list)
-    df.drop(df[df['COST'] != ms_cost].index, inplace = True)
+    if ms_cost != 0:
+        df.drop(df[df['COST'] != ms_cost].index, inplace = True)
     level_list = []
     for level in contain_ms_level:
         level_list.append("LV"+level)
