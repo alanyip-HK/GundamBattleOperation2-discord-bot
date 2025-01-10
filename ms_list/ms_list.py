@@ -1,4 +1,4 @@
-#ms_list last update on 2025-01-03
+#ms_list last update on 2025-01-10
 unit = {"汎用":[
   {
     "LV": "LV1",
@@ -3556,6 +3556,14 @@ unit = {"汎用":[
     "LV": "LV4",
     "MS": "ガンダム試作3号機ステイメン",
     "COST": 700,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
+    "LV": "LV1",
+    "MS": "ガンダムMk-Ⅱ［メガラニカ所属］",
+    "COST": 550,
     "TYPE": "汎用",
     "GROUND": "TRUE",
     "SPACE": "TRUE"
@@ -7793,7 +7801,7 @@ unit = {"汎用":[
     "TYPE": "強襲",
     "GROUND": "TRUE",
     "SPACE": "TRUE"
-  }
+  },
   {
     "LV": "LV1",
     "MS": "RX-93ff νガンダム",
@@ -9627,6 +9635,14 @@ unit = {"汎用":[
     "TYPE": "支援",
     "GROUND": "TRUE",
     "SPACE": "FALSE"
+  },
+  {
+    "LV": "LV1",
+    "MS": "ジム・シューター",
+    "COST": 500,
+    "TYPE": "支援",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
   },
   {
     "LV": "LV1",
