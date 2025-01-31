@@ -1,4 +1,4 @@
-#ms_list last update on 2025-01-10
+#ms_list last update on 2025-01-31
 unit = {"汎用":[
   {
     "LV": "LV1",
@@ -4033,6 +4033,14 @@ unit = {"汎用":[
     "SPACE": "TRUE"
   },
   {
+    "LV": "LV4",
+    "MS": "FAガンダムMk-Ⅱ",
+    "COST": 700,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
     "LV": "LV1",
     "MS": "Ζガンダム［ザク頭］",
     "COST": 550,
@@ -4418,6 +4426,14 @@ unit = {"汎用":[
   },
   {
     "LV": "LV1",
+    "MS": "RFザク",
+    "COST": 600,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
+    "LV": "LV1",
     "MS": "Ζガンダム",
     "COST": 600,
     "TYPE": "汎用",
@@ -4436,6 +4452,14 @@ unit = {"汎用":[
     "LV": "LV3",
     "MS": "Ζガンダム",
     "COST": 700,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
+    "LV": "LV4",
+    "MS": "Ζガンダム",
+    "COST": 750,
     "TYPE": "汎用",
     "GROUND": "TRUE",
     "SPACE": "TRUE"
@@ -4521,6 +4545,14 @@ unit = {"汎用":[
     "SPACE": "TRUE"
   },
   {
+    "LV": "LV3",
+    "MS": "キュベレイ",
+    "COST": 750,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
     "LV": "LV1",
     "MS": "グスタフ・カール",
     "COST": 650,
@@ -4596,6 +4628,14 @@ unit = {"汎用":[
     "LV": "LV2",
     "MS": "ジ・O",
     "COST": 700,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
+    "LV": "LV3",
+    "MS": "ジ・O",
+    "COST": 750,
     "TYPE": "汎用",
     "GROUND": "TRUE",
     "SPACE": "TRUE"
@@ -4673,9 +4713,25 @@ unit = {"汎用":[
     "SPACE": "TRUE"
   },
   {
+    "LV": "LV2",
+    "MS": "ファーヴニル",
+    "COST": 700,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
     "LV": "LV1",
     "MS": "フライルー・ラーⅡ",
     "COST": 650,
+    "TYPE": "汎用",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
+    "LV": "LV2",
+    "MS": "フライルー・ラーⅡ",
+    "COST": 700,
     "TYPE": "汎用",
     "GROUND": "TRUE",
     "SPACE": "TRUE"
@@ -6299,6 +6355,14 @@ unit = {"汎用":[
     "SPACE": "TRUE"
   },
   {
+    "LV": "LV2",
+    "MS": "メタル・スパイダー",
+    "COST": 450,
+    "TYPE": "強襲",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
     "LV": "LV1",
     "MS": "リック・ドムⅡ（GH）",
     "COST": 400,
@@ -7451,6 +7515,14 @@ unit = {"汎用":[
     "SPACE": "TRUE"
   },
   {
+    "LV": "LV4",
+    "MS": "ハンブラビ",
+    "COST": 750,
+    "TYPE": "強襲",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
     "LV": "LV1",
     "MS": "ヘビーガンダム（I0）",
     "COST": 600,
@@ -7505,6 +7577,14 @@ unit = {"汎用":[
     "TYPE": "強襲",
     "GROUND": "TRUE",
     "SPACE": "TRUE"
+  },
+  {
+    "LV": "LV1",
+    "MS": "RFグフ",
+    "COST": 600,
+    "TYPE": "強襲",
+    "GROUND": "TRUE",
+    "SPACE": "FALSE"
   },
   {
     "LV": "LV1",
@@ -10622,6 +10702,22 @@ unit = {"汎用":[
   },
   {
     "LV": "LV2",
+    "MS": "Ζガンダム［HML］",
+    "COST": 700,
+    "TYPE": "支援",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
+    "LV": "LV3",
+    "MS": "Ζガンダム［HML］",
+    "COST": 750,
+    "TYPE": "支援",
+    "GROUND": "TRUE",
+    "SPACE": "TRUE"
+  },
+  {
+    "LV": "LV1",
     "MS": "クシャトリヤ",
     "COST": 700,
     "TYPE": "支援",
